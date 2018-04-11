@@ -25,6 +25,10 @@ div.green {
   background-color: green;
 }
 
+div.sunrise {
+  background: linear-gradient(to right, red , yellow);
+}
+
 .invisible {
   display: none;
 }
