@@ -10,6 +10,7 @@ function start () {
   // Your turn! Create a new function called `two`, then call it from here.
   two();
   three();
+  makeVisible();
 }
 
 function one () {
@@ -38,3 +39,11 @@ function three() {
 }
 
 // CREATE FUNCTION makeVisible HERE
+
+function makeVisible() {
+  let ringbearers = document.getElementsByClassName('invisible');
+  console.log(ringbearers);
+  let bilbo = ringbearers[0];
+  bilbo.classList.add('visible');
+
+}
